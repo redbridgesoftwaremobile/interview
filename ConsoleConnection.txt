@@ -1,0 +1,38 @@
+ssh-ed25519 255 V5Le1dgYgOEBgCmXJUIDBChZWINQOuum+6EgJjhbpco=
+ssh-ed25519 255 6b:d1:70:fd:2b:c1:b8:d0:4a:e8:8e:1f:73:cf:60:60
+
+ssh –i <private_key> <username>@<public-ip-address>
+ssh -i ssh-key-2021-05-09.key ocp@150.136.108.29
+
+ssh -i ssh-key-2021-05-09.key ocp@150.136.106.250
+ssh -i ssh-key-2021-05-09.key.pub ocp@150.136.106.250
+
+
+Console Connection WINDOWS
+Start-Job { Echo N | plink.exe -i $env:homedrive$env:homepath\oci\console.ppk -N -ssh -P 443 -l ocid1.instanceconsoleconnection.oc1.iad.anuwcljtnmtxzoacf23dhk7lcv7tqx3yujth2grpnldeevr5rd3mvtzlqmoa -L 5905:ocid1.instance.oc1.iad.anuwcljtnmtxzoaccqwbeso3n2zhbq5vlnnpfr36irfe4jujbsxdpwes5lxa:5905 instance-console.us-ashburn-1.oraclecloud.com }; sleep 5; plink.exe -i $env:homedrive$env:homepath\oci\console.ppk -N -L 5900:localhost:5900 -P 5905 localhost -l ocid1.instance.oc1.iad.anuwcljtnmtxzoaccqwbeso3n2zhbq5vlnnpfr36irfe4jujbsxdpwes5lxa
+
+Console Connection LINUX
+
+ssh -o ProxyCommand='ssh -W %h:%p -p 443 ocid1.instanceconsoleconnection.oc1.iad.anuwcljtnmtxzoacf23dhk7lcv7tqx3yujth2grpnldeevr5rd3mvtzlqmoa@instance-console.us-ashburn-1.oraclecloud.com' -N -L localhost:5900:ocid1.instance.oc1.iad.anuwcljtnmtxzoaccqwbeso3n2zhbq5vlnnpfr36irfe4jujbsxdpwes5lxa:5900 ocid1.instance.oc1.iad.anuwcljtnmtxzoaccqwbeso3n2zhbq5vlnnpfr36irfe4jujbsxdpwes5lxa
+
+
+ssh -L 5901:localhost:5901 -i ./.ssh/Keys-SSH/ssh-key-2021-05-09.key opc@150.136.83.234
+
+ssh -L 5901:localhost:5901 -i ./Keys-SSH/ssh-key-2021-05-09.key opc@150.136.83.234
+ssh -L 5901:localhost:5902 -i ./Keys-SSH/ssh-key-2021-05-09.key opc@150.136.83.234
+ssh -L 5901:localhost:5903 -i ./Keys-SSH/ssh-key-2021-05-09.key opc@150.136.83.234
+ssh -L 5901:localhost:5904 -i ./Keys-SSH/ssh-key-2021-05-09.key opc@150.136.83.234
+
+sudo systemctl enable vncserver@\:display.service
+systemctl status vncserver@:display.service
+sudo systemctl status x11vnc
+systemctl daemon-reload
+cd /home/opc/.vnc/redbridge
+vncserver
+ tail /home/opc/.vnc/redbridge:1.log
+ 
+ ln -s /mnt/chromeos/removable/SD-CARD/software /soft
+ 
+
+
+ssh-keygen -t rsa -b 4096 -C "redbridgesoftwaremobile@gmail.com"
