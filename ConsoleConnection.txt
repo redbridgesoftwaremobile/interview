@@ -32,7 +32,10 @@ vncserver
  tail /home/opc/.vnc/redbridge:1.log
  
  ln -s /mnt/chromeos/removable/SD-CARD/software /soft
+ git config --global user.email "redbridgesoftwaremobile@gmail.com"
+ git config --global user.name "redbridgesoftwaremobile"
  
-
+git remote set-url origin git@github.com:redbridgesoftwaremobile/interview.git
+git push
 
 ssh-keygen -t rsa -b 4096 -C "redbridgesoftwaremobile@gmail.com"
