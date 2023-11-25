@@ -1,0 +1,1000 @@
+    1  ls
+    2  ./create_linux_launcher.sh
+    3  pwd
+    4  ls
+    5  chmod -R 777 jgrasp
+    6  cd jgrasp
+    7  ls
+    8  cd bin
+    9  ls
+   10  sh create_linux_launcher.sh
+   11  ./jgrasp
+   12  cd ..
+   13  ls
+   14  cd Downloads
+   15  ls
+   16  cd glasseditor
+   17  ls
+   18  cd ..
+   19  chmod -R 777 glasseditor
+   20  cd GlassEditor
+   21  cd glasseditor
+   22  ls
+   23  ./GlassEditor.sh
+   24  clean
+   25  cls
+   26  cd Downloads
+   27  ls
+   28  jar BlueJ-generic-501.jar
+   29  jar --help
+   30  chmod 777 BlueJ-generic-501.jar
+   31  ls
+   32  exit
+   33  ls
+   34  pwd
+   35  ls
+   36  exit
+   37  mem
+   38  vncserver
+   39  vi /home/opc/.vnc/xstartup
+   40  exit
+   41  ls
+   42  ssh -L 5901:localhost:5901 -i C:\Users\heli.vergara\.ssh\ssh-key-2021-05-09.key opc@150.136.108.29
+   43  exit
+   44  df
+   45  ps -a|grep "vnc"
+   46  ps -a
+   47  ps -e|grep "vnc"
+   48  ps -e
+   49  ps -e|grep "X11"
+   50  ps -e|grep ssh"
+   51  ps -e|grep "ssh"
+   52  yum group list
+   53  systemctl daemon-reload
+   54  cd Downloads
+   55  ls
+   56  sudo yum uninstall atom
+   57  sudo yum erase atom
+   58  vncserver
+   59  vi /home/opc/.vnc/redbridge:2.log
+   60  exit
+   61  vncserver
+   62  tail /home/opc/.vnc/redbridge:3.log
+   63  exit
+   64  ls
+   65  exit
+   66  pwd
+   67  ls
+   68  exit
+   69  rm ..help
+   70  rm --help
+   71  exi
+   72  exit
+   73  exi
+   74  exit
+   75  ls
+   76  exit
+   77  ls
+   78  systemctl status vncserver@:display.service
+   79  vncserver
+   80  grep /home/opc/.vnc/redbridge:2.log
+   81  exit
+   82  cd /home/opc/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/bin
+   83  jdev
+   84  ./jdev
+   85  ps -e
+   86  java -version
+   87  pwd
+   88  ls
+   89  find . "java"|grep "java"
+   90  find . "java"|grep "module-info.java"
+   91  find . "java"|grep "jdk"
+   92  cd ..
+   93  pwd
+   94  cd ..
+   95  ls
+   96  cd opt
+   97  ls
+   98  cd ..
+   99  pwd
+  100  find . "jdk"|grep "11"
+  101  find . "jdk"|grep "jdk11"
+  102  pwd
+  103  cd
+  104  pwd
+  105  ls
+  106  cd software
+  107  ls
+  108  cd ..
+  109  cd Downloads
+  110  ls
+  111  cd /home/opc/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/bin
+  112  ./jdev
+  113  ls
+  114  date
+  115  vncserver
+  116  exit
+  117  df
+  118  vncserver
+  119  cd /tmp/.X11-unix
+  120  ls -ltr
+  121  rm X1
+  122  rm X3
+  123  rm X2
+  124  exit
+  125  cd Downloads
+  126  ls
+  127  wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+  128  sudo yum install ./google-chrome-stable_current_*.rpm
+  129  google-chrome &
+  130  systemctl status vncserver@:display.service
+  131  exit
+  132  ps -e
+  133  ps -e|grep "vnc"
+  134  ps -e|grep "ssh"
+  135  sudo systemctl start vncserver@\:display.service
+  136  ps -e|grep "vnc"
+  137  ps -e
+  138  tail /home/opc/.vnc/redbridge:3.log
+  139  tail /home/opc/.vnc/redbridge:4.log
+  140  tail /home/opc/.vnc/redbridge:5.log
+  141  tail /home/opc/.vnc/redbridge:0.log
+  142  tail /home/opc/.vnc/redbridge:1.log
+  143  systemctl status vncserver@:display.service
+  144  vncserver -list
+  145  vncserver
+  146  exit
+  147  df
+  148  cd Downloads
+  149  ls
+  150  sudo wget -O /etc/yum.repos.d/cloudfoundry-cli.repo https://packages.cloudfoundry.org/fedora/cloudfoundry-cli.repo
+  151  sudo yum install cf7-cli
+  152  ps -e
+  153  ps -e|grep "vnc"
+  154  sudo dnf install chromium
+  155  sudo dnf install --assumeyes epel-release
+  156  sudo yum install --assumeyes epel-release
+  157  cd Downloads
+  158  sudo rpm --import https://rpm.opera.com/rpmrepo.key
+  159  sudo tee /etc/yum.repos.d/opera.repo <<RPMREPO
+  160  [opera]
+  161  name=Opera packages
+  162  type=rpm-md
+  163  baseurl=https://rpm.opera.com/rpm
+  164  gpgcheck=1
+  165  gpgkey=https://rpm.opera.com/rpmrepo.key
+  166  enabled=1
+  167  RPMREPO
+  168  sudo yum -y install opera-stable
+  169  cf
+  170  sh /home/opc/Oracle/Middleware/Oracle_Home/jdeveloper/jdev/bin/jdev
+  171  ls
+  172  df
+  173  cd github
+  174  cd kindle
+  175  git pull
+  176  ls
+  177  cd github
+  178  git pull
+  179  cd kindle
+  180  git  pull
+  181  git pull
+  182  git rm  -f  *-jdb
+  183  git rm  -f  *.jdb
+  184  git rm  -f  *.cdi
+  185  git status
+  186  git pull
+  187  git reset  origin/master
+  188  systemctl status vncserver@:display.service
+  189  cd github
+  190  cd kindle
+  191  git stash
+  192  git pull
+  193  ls -ltr
+  194  git rm -f .gitignore
+  195  ls
+  196  ls -a
+  197  rm .gitignore
+  198  ls -a
+  199  git pull
+  200  git rm -f *.class
+  201  tail /home/opc/.vnc/redbridge:4.log
+  202  cd /home/opc/.vnc
+  203  ls
+  204  ls -ltr
+  205  systemctl status vncserver@:display.service
+  206  vncserver -list
+  207  tail /home/opc/.vnc/redbridge:0.log
+  208  tail /home/opc/.vnc/redbridge:1.log
+  209  tail /home/opc/.vnc/redbridge:2.log
+  210  tail /home/opc/.vnc/redbridge:3.log
+  211  tail /home/opc/.vnc/redbridge:4.log
+  212  cd /tmp/.X11-unix
+  213  ls
+  214  exit
+  215  vncserver
+  216  exit
+  217  javac -d out --module-source-path src --module simpleinterest
+  218  ls
+  219  javac -d out --module-source-path src --module simpleinterest
+  220  pwd
+  221  java -d --module-source-path src --module simpleinterest
+  222  java -d out --module-source-path src --module simpleinterest
+  223  javac -d out --module-source-path src --module simpleinterest
+  224  javac -d out --module-source-path ./src --module simpleinterest
+  225  pwd
+  226  javac -d out --module-source-path /home/opc/github/kindle/Enthuware/src --module simpleinterest
+  227  cd src
+  228  ls
+  229  git status
+  230  git commit -m "cleaning"
+  231  git add kindle-main.zip
+  232  git status
+  233  git push
+  234  git add .
+  235  git status
+  236  git rm -f *.class
+  237  git status
+  238  git push
+  239  cd /tmp/.X11-unix
+  240  ls
+  241  rm X1
+  242  ls
+  243  tail /home/opc/.vnc/redbridge:1.log
+  244  tail /home/opc/.vnc/redbridge:0.log
+  245  sudo systemctl daemon-reload
+  246  sudo systemctl status x11vnc
+  247  systemctl status vncserver@:display.service
+  248  cd /tmp/.X11-unix
+  249  ls
+  250  exit
+  251  cd github
+  252  cd kindle
+  253  git pull
+  254  ls
+  255  etsviewer.jar
+  256  jar
+  257  jar etsviewer.jar
+  258  java etsviewer.jar
+  259  java -jar etsviewer.jar
+  260  cd github
+  261  cd kindle
+  262  git pull
+  263  git status
+  264  ls
+  265  git add .
+  266  git status
+  267  git commit -m "update simpleinterest"
+  268  git push
+  269  git config --global user.name "redbridgesoftwaremobile"
+  270  it config --global user.email "redbridgesoftwaremobile@gmail.com"
+  271  git status
+  272  git commit -m "update commands"
+  273  git push
+  274  git status
+  275  git add .
+  276  git add --all
+  277  git status
+  278  git push
+  279  git status
+  280  git reset HEAD .
+  281  git status
+  282  git add .
+  283  git add --all
+  284  git status
+  285  git reset HEAD .
+  286  git add --all
+  287  git commit -m "update from Cloud"
+  288  git push
+  289  git pull
+  290  ls
+  291  cd Enthuware
+  292  dir
+  293  java -d out --module-source-path src --module Tax
+  294  javac -d out --module-source-path src --module Tax
+  295  javac -d out --module-source-path src --module simpleinterest
+  296  git status
+  297  git add --all
+  298  git status
+  299  git rm -f *.class
+  300  git status
+  301  git commit -m "update from Cloud"
+  302  git config --global user.name "redbridgesoftwaremobile"
+  303  git config --global user.email redbridgesoftwaremobile@gmail.com
+  304  git commit --amend --reset-author
+  305  pwd
+  306  ls
+  307  javac -d out --module-source-path src --module customer
+  308  javac -d out --module-source-path src --module Calculator
+  309  javac -d out --module-source-path src --module abc.print
+  310  javac -d out --module-source-path src --module PrintSe
+  311  javac -d out --module-source-path src --module customer
+  312  clear
+  313  javac -d out --module-source-path src --module customer
+  314  clear
+  315  javac -d out --module-source-path src --module customer
+  316  exit
+  317  cd /tmp/.X11-unix
+  318  ls
+  319  systemctl status vncserver@:display.service
+  320  vncserver
+  321  exit
+  322  netstat
+  323  sudo systemctl status x11vnc
+  324  systemctl status vncserver@:display.service
+  325  exit
+  326  cd /home/opc/.vnc/
+  327  ls
+  328  exit
+  329  cd /tmp/.X11-unix
+  330  ls
+  331  exit
+  332  sudo systemctl start vncserver@\:display.service
+  333  systemctl status vncserver@:display.service
+  334  vncserver
+  335  exit
+  336  ls
+  337  exit
+  338  ls
+  339  df
+  340  ls
+  341  exit
+  342  tail /home/opc/.vnc/redbridge:0.log
+  343  cd /tmp/.X11-unix
+  344  ls
+  345  tail /home/opc/.vnc/redbridge:0.log
+  346  cd /home/opc/.vnc/redbridge
+  347  cd /home/opc/.vnc/
+  348  ls
+  349  tail /home/opc/.vnc/redbridge:4.log
+  350  tail /home/opc/.vnc/redbridge:1.log
+  351  ls
+  352  rm *.log
+  353  ls
+  354  cd /tmp/.X11-unix
+  355  ls
+  356  tail X0
+  357  cd X0
+  358  ls -ltr
+  359  cd
+  360  systemctl status vncserver@:display.service
+  361  vncserver
+  362  exit
+  363  ls
+  364  exit
+  365  ls
+  366  exit
+  367  ls
+  368  LS
+  369  ls
+  370  systemctl status vncserver@:display.service
+  371  cd /tmp/.X11-unix
+  372  ls
+  373  wd
+  374  pwd
+  375  ls
+  376  exit
+  377  ls
+  378  systemctl status vncserver@:display.service
+  379  vncserver
+  380  exit
+  381  ps -all
+  382  ps
+  383  exit
+  384  ls
+  385  systemctl status vncserver@:display.service
+  386  vncserver
+  387  exit
+  388  ls
+  389  exit
+  390  ls
+  391  vncserver
+  392  exit
+  393  ls
+  394  exit
+  395  cd Atom
+  396  sudo nano /etc/yum.repos.d/atom.repo
+  397  sudo yum install atom
+  398  sudo yum upgrade atom-1.57.0
+  399  sudo yum upgrade atom
+  400  cd /etc
+  401  cd yum.repos.d
+  402  rm vscode.repo
+  403  sudo rm vscode.repo
+  404  cd
+  405  cd Atom
+  406  sudo yum upgrade atom-1.57.0
+  407  sudo yum install atom-1.57.0
+  408  exit
+  409  atom
+  410  ps -ef|grep atom
+  411  ls
+  412  exit
+  413  git
+  414  atom
+  415  sudo yum uninstall atom-1.57.0
+  416  sudo yum remove atom-1.57.0
+  417  yum list installed
+  418  sudo yum remove Atom
+  419  yum list installed|less
+  420  git
+  421  git --version
+  422  sudo yum update
+  423  df
+  424  cd Downloads
+  425  ls
+  426  rm ".rpm
+  427  ,\;
+  428  :
+  429  exit
+  430  remove ".rpm
+  431  .
+  432  ls
+  433  rm --help
+  434  ls
+  435  rm google".rpm
+  436  rm ./google".rpm
+  437  df
+  438  cd ..
+  439  pwd
+  440  ls
+  441  cd Downloads
+  442  ls
+  443  df
+  444  java --version
+  445  javac
+  446  yum list installed|less
+  447  df
+  448  df
+  449  ls
+  450  cd github
+  451  cd kindle
+  452  ls
+  453  java -jar etsviewer.jar
+  454  exit
+  455  ls
+  456  vncserver
+  457  sudo nano /etc/yum.repos.d/atom.repo
+  458  sudo yum install atom
+  459  sudo rpm --import https://packagecloud.io/AtomEditor/atom/gpgkey
+  460  sudo yum install atom
+  461  rpm -q centos-release
+  462  wget  https://github.com/atom/atom/releases/download/v1.18.0/atom.x86_64.rpm
+  463  ls
+  464  cd Downloads
+  465  wget  https://github.com/atom/atom/releases/download/v1.18.0/atom.x86_64.rpm
+  466  ls
+  467  yum localinstall atom.x86_64.rpm
+  468  sudo yum localinstall atom.x86_64.rpm
+  469  atom
+  470  ls
+  471  cd ..
+  472  cd github
+  473  ls
+  474  git clone https://github.com/redbridgesoftwaremobile/atom.git
+  475  ls
+  476  cd ..
+  477  ls
+  478  rm 
+  479  rm atom.x86_64.rpm
+  480  ls
+  481  cd Downloads
+  482  wget https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-09/M1/eclipse-inst-jre-linux64.tar.gz
+  483  ls
+  484  ks
+  485  vncserver
+  486  cd Downloads
+  487  wget https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-09/M1/eclipse-inst-jre-linux64.tar.gz
+  488  cd /usr
+  489  cd java
+  490  ls
+  491  cd
+  492  pwd
+  493  cd software
+  494  cd jdk1.8.0_291
+  495  ls
+  496  cd bin
+  497  ls
+  498  pwd
+  499  exit
+  500  ls
+  501  exit
+  502  ls
+  503  ls
+  504  cd software
+  505  cd github
+  506  cd atom
+  507  branch --list
+  508  git branch --list
+  509  git checout develop
+  510  git --help
+  511  git checkout develop
+  512  git pull
+  513  ls
+  514  git branch --list
+  515  git checkout futureJul2022
+  516  git checkout featureJul2022
+  517  git pull
+  518  git checkout main
+  519  git branch --list
+  520  ls
+  521  df
+  522  ls
+  523  df
+  524  list
+  525  ls
+  526  exit
+  527  ls
+  528  cd Downloads
+  529  ls
+  530  cd ..
+  531  ls
+  532  pwd
+  533  ls -ltr
+  534  ls
+  535  pwd
+  536  cd /
+  537  cd ssh
+  538  pwd
+  539  ls
+  540  cd
+  541  ls
+  542  exit
+  543  whoami
+  544  pwd
+  545  exit
+  546  ls
+  547  pwd
+  548  exit
+  549  ls
+  550  cd software
+  551  ls
+  552  cd github
+  553  ls
+  554  cd atom
+  555  git pull
+  556  java -version
+  557  ls
+  558  javac
+  559  ls
+  560  pwd
+  561  exit
+  562  ls
+  563  cd software
+  564  ls
+  565  exit
+  566  ls
+  567  exit
+  568  ls
+  569  cd software
+  570  ls
+  571  cd git
+  572  ls
+  573  cd ..
+  574  cd github
+  575  ls
+  576  type OWNER.txt
+  577  ls
+  578  vi
+  579  ls
+  580  vi OWNER.txt
+  581  ls
+  582  git push https://ghp_tkQEulADml
+  583  w8hsr75k7bpz03Pv0eET1nAap3@gith
+  584  ub.com/redbridegesoftwaremobile
+  585  vi
+  586  cls
+  587  clear
+  588  ls
+  589  git clone https://ghp_tkQEulADm
+  590  l
+  591  w8hsr75k7bpz03Pv0eET1nAap3@gith
+  592  ub.com/redbridegesoftwaremobile
+  593  vi command.txt
+  594  git clone https://ghp_tkQEulADm
+  595  lw8hsr75k7bpz03Pv0eET1nAap3@git
+  596  hub.com/redbridegesoftwaremobil
+  597  ls
+  598  git clone https://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@git
+  599  clear
+  600  git clone https://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@github.com/redbridegesoftwaremobile/openshift.git
+  601  ls
+  602  git clone https://github.com/redbridegesoftwaremobile/openshift.git
+  603  ls
+  604  clear
+  605  git clone https://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@github.com/redbridegesoftwaremobile/openshift.git
+  606  clear
+  607  ls
+  608  cd atom
+  609  git pull
+  610  git status
+  611  ls
+  612  git pull
+  613  ls
+  614  clear
+  615  ls
+  616  cd software
+  617  ls
+  618  cd github
+  619  ls
+  620  cd atom
+  621  ls
+  622  vi pom.xml
+  623  clear
+  624  mvn
+  625  ls
+  626  mvn
+  627  cd ..
+  628  ls
+  629  java --version
+  630  df
+  631  clear
+  632  sudo yum install maven
+  633  mvn
+  634  pwd
+  635  cd github
+  636  ls
+  637  cd atom
+  638  ls
+  639  mvn --version
+  640  mvn clean
+  641  mvn package
+  642  ls
+  643  pwd
+  644  ls
+  645  cd src
+  646  ls
+  647  cd main
+  648  ls
+  649  cd java
+  650  ls
+  651  cd com
+  652  ls
+  653  cd mitocode
+  654  ls
+  655  cd lambda
+  656  ls
+  657  vi LamdaApp.java
+  658  ls
+  659  tail LambdaApp.java
+  660  clear
+  661  ls
+  662  git pull
+  663  ls
+  664  java LambdaX
+  665  pwd
+  666  java com.mitocode.lambda.LambdaX
+  667  pwd
+  668  pull
+  669  git pull
+  670  ls
+  671  ls -ltr
+  672  date
+  673  java LamdaX.java
+  674  java LambdaX.java
+  675  exit
+  676  cd software
+  677  cd github
+  678  cd atom
+  679  cd src
+  680  cd java
+  681  ls
+  682  cd main
+  683  cd java
+  684  cd com
+  685  ls
+  686  cd mitocode
+  687  ls
+  688  cd lambda
+  689  ls
+  690  git pull
+  691  javac Product.java
+  692  ls
+  693  java LambdaX.java
+  694  git pull
+  695  java LambdaX.java
+  696  git pull
+  697  java LambdaX.java
+  698  git pull
+  699  clear
+  700  java LambdaX.java
+  701  git pull
+  702  java LambdaX.java
+  703  git pull
+  704  java LambdaX.java
+  705  git pull
+  706  java LambdaX.java
+  707  git pull
+  708  java LambdaX.java
+  709  ls
+  710  pwd
+  711  cd software
+  712  ls
+  713  cd github
+  714  ls
+  715  cd atom
+  716  ls
+  717  cd src
+  718  ls
+  719  cd main
+  720  ls
+  721  cd java
+  722  ls
+  723  cd com
+  724  ls
+  725  cd mitocode
+  726  ls
+  727  cd lambda
+  728  ls
+  729  git pull
+  730  java LambdaX.java
+  731  ls
+  732  clear
+  733  git pull
+  734  java LambdaX.java
+  735  git pull
+  736  java LambdaX.java
+  737  clear
+  738  java LambdaX.java
+  739  ls
+  740  df
+  741  exit
+  742  cd software
+  743  cd github
+  744  ls
+  745  cd atom
+  746  git pull
+  747  branch --list
+  748  git branch --list
+  749  checkout featureJul2022
+  750  git checkout featureJul2022
+  751  git pull
+  752  cd ..
+  753  git clone https://github.com/j-easy/easy-flows.git
+  754  git branch --list
+  755  ls
+  756  cd easy-flows
+  757  git branch --list
+  758  ls
+  759  cd Downloads
+  760  ls
+  761  rpm --import https://packages.microsoft.com/keys/microsoft.asc
+  762  sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+  763  ls
+  764  cat << EOF > /etc/yum.repos.d/vscode.repo
+  765  [code]
+  766  name=Visual Studio Code
+  767  baseurl=https://packages.microsoft.com/yumrepos/vscode
+  768  enabled=1
+  769  gpgcheck=1
+  770  gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+  771  EOF
+  772  cat << EOF > /etc/yum.repos.d/vscode.repo
+  773  [code]
+  774  name=Visual Studio Code
+  775  baseurl=https://packages.microsoft.com/yumrepos/vscode
+  776  enabled=1
+  777  gpgcheck=1
+  778  gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+  779  EOF
+  780  sudo cat << EOF > /etc/yum.repos.d/vscode.repo
+  781  [code]
+  782  name=Visual Studio Code
+  783  baseurl=https://packages.microsoft.com/yumrepos/vscode
+  784  enabled=1
+  785  gpgcheck=1
+  786  gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+  787  EOF
+  788  sudo yum cat << EOF > /etc/yum.repos.d/vscode.repo
+  789  [code]
+  790  name=Visual Studio Code
+  791  baseurl=https://packages.microsoft.com/yumrepos/vscode
+  792  enabled=1
+  793  gpgcheck=1
+  794  gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+  795  EOF
+  796  sudo chmod +755 /etc/yum.repos.d
+  797  cat << EOF > /etc/yum.repos.d/vscode.repo
+  798  [code]
+  799  name=Visual Studio Code
+  800  baseurl=https://packages.microsoft.com/yumrepos/vscode
+  801  enabled=1
+  802  gpgcheck=1
+  803  gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+  804  EOF
+  805  sudo cat << EOF > /etc/yum.repos.d/vscode.repo
+  806  [code]
+  807  name=Visual Studio Code
+  808  baseurl=https://packages.microsoft.com/yumrepos/vscode
+  809  enabled=1
+  810  gpgcheck=1
+  811  gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+  812  EOF
+  813  sudo chmod +777 /etc/yum.repos.d
+  814  node -v
+  815  sudo yum update
+  816  cd Downloads
+  817  curl ?sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+  818  node -v
+  819  cd Downloads
+  820  sudo yum install -y nodejs
+  821  node -v
+  822  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+  823  nvm ?version
+  824  nvm -version
+  825  nvm --version
+  826  nvm install node
+  827  nvm use --delete-prefix v19.3.0
+  828  node --version
+  829  npm config delete prefix
+  830  node --version
+  831  nvm uninstall node
+  832  node --version
+  833  sudo yum update
+  834  pwd
+  835  cd Downloads
+  836  curl ?sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+  837  sudo yum install -y nodejs
+  838  node --version
+  839  sudo yum uninstall nvm
+  840  yum --help
+  841  sudo yum erase nvm
+  842  sudo yum erase nodejs
+  843  nvm 
+  844  node --version
+  845  nvm install node
+  846  nvm install 16
+  847  nvm use 16
+  848  node --version
+  849  npm --version
+  850  df
+  851  code
+  852  exit
+  853  ls
+  854  ls -ld /etc/yum.repos.d
+  855  nvm install 16
+  856  nvm use 16
+  857  ls
+  858  exit
+  859  ls
+  860  df
+  861  node --version
+  862  npm --version
+  863  exit
+  864  ls
+  865  cd /tmp/.X11-unix
+  866  ls
+  867  systemctl status vncserver@:display.service
+  868  exit
+  869  ls
+  870  sudo systemctl start vncserver@\:display.service
+  871  systemctl status vncserver@:display.service
+  872  sudo systemctl enable vncserver@\:display.service
+  873  systemctl status vncserver@:display.service
+  874  cd /home/opc/.vnc/redbridge
+  875  cd /home/opc/.vnc
+  876  ls
+  877  exit
+  878  cd /home/opc/.vnc
+  879  ls
+  880  exit
+  881  cd /home/opc/.vnc
+  882  ls
+  883  tail redbridge:1.log
+  884  systemctl daemon-reload
+  885  systemctl status vncserver@:display.service
+  886  sudo systemctl status x11vnc
+  887  cd /tmp/.X11-unix
+  888  ls
+  889  tail x0
+  890  ls
+  891  tail /home/opc/.vnc/redbridge:1.log
+  892  tail /home/opc/.vnc/redbridge:2.log
+  893  vncserver
+  894  exit
+  895  ls
+  896  ls
+  897  exit
+  898  ls
+  899  java -version
+  900  cd software
+  901  ls
+  902  git
+  903  cd ..
+  904  ls
+  905  cd Downloads
+  906  ls
+  907  df
+  908  pwd
+  909  exit
+  910  ls
+  911  exit
+  912  ls
+  913  exit
+  914  cd software
+  915  ls
+  916  sudo sudo yum -y update
+  917  sudo yum -y install wget vim
+  918  wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.rpm
+  919  ls
+  920  sudo yum -y install ./jdk-17_linux-x64_bin.rpm
+  921  cd /usr/lib/jvm/jre-openjdk/
+  922  ls
+  923  java -version
+  924  cd /
+  925  pwd
+  926  ls
+  927  cd
+  928  pwd
+  929  ls
+  930  mkdir trabajo
+  931  cd trabajo
+  932  vim HelloWorld.java
+  933  java HelloWorld.java
+  934  ls
+  935  cd interview
+  936  ls
+  937  systemctl status vncserver@:display.service
+  938  tail /home/opc/.vnc/redbridge:1.log
+  939  tail /home/opc/.vnc/redbridge:2.log
+  940  tail /home/opc/.vnc/redbridge:3.log
+  941  tail /home/opc/.vnc/redbridge:0.log
+  942  tail /home/opc/.vnc/redbridge:1.log
+  943  systemctl status vncserver@:display.service
+  944  vncserver
+  945  tail /home/opc/.vnc/redbridge:1.log
+  946  cd trabajo
+  947  cd Git
+  948  ls
+  949  cd interview
+  950  ls
+  951  git remote set-url origin git@github.com:redbridgesoftwaremobile/interview.git
+  952  git status
+  953  git push
+  954  cd ..
+  955  rm -rvf interview
+  956  git clone git remote set-url origin git@github.com:redbridgesoftwaremobile/interview.git
+  957  git clone https://github.com/redbridgesoftwaremobile/interview.git
+  958  cd interview
+  959  ls
+  960  git status
+  961  ls
+  962  exit
+  963  ls
+  964  pwd
+  965  exit
+  966  ls
+  967  exit
+  968  ls
+  969  java --version
+  970  systemctl status vncserver@:display.service
+  971  vncserver
+  972  tail /home/opc/.vnc/redbridge:2.log
+  973  exit
+  974  ls
+  975  cd trabajo
+  976  ls
+  977  cd Git
+  978  ls
+  979  pwd
+  980  cd interview
+  981  ls
+  982  git status
+  983  ls
+  984  ls -r JavaCert17-01/
+  985  cd JavaCert17-01/
+  986  ls
+  987  tail Blocky.java 
+  988  vim Blocky.java
+  989  ls
+  990  cd trabajo
+  991  ls
+  992  cd Git
+  993  ls
+  994  cd interview
+  995  ls
+  996  git history
+  997  git logs
+  998  git log
+  999  history
+ 1000  history > history.txt
